@@ -1,0 +1,24 @@
+{
+  "name": "graphql-micro-knit",
+  "version": "1.0.0",
+  "description": "Monorepo of JWT enabled microservices knit with GraphQL aggregate resolver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "token": "NODE_ENV=dev node token.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cif/graphql-micro-knit.git"
+  },
+  "author": "Ben Ipsen <email@benipsen.com> (http://www.benipsen.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cif/graphql-micro-knit/issues"
+  },
+  "homepage": "https://github.com/cif/graphql-micro-knit#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.12.0",
+  }
+}

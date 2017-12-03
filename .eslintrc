@@ -1,6 +1,6 @@
 {
   "rules": {
-    "comma-dangle": [2, "always"],
+    "comma-dangle": [2, "always-multiline"],
   },
   "env": {
     "es6": true,
@@ -12,5 +12,9 @@
     "modules": true,
     "experimentalObjectRestSpread": true
   },
-  "extends": "eslint:recommended"
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "sourceType": "module"
+  }
+
 }
